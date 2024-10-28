@@ -1,13 +1,6 @@
-
 #!/bin/bash
 
-DB_NAME=inception
-DB_USER=brumarti
-DB_PASSWORD=123
-DB_PASS_ROOT=321
-
 service mariadb start
-
 mariadb -v -u root << EOF
 CREATE DATABASE IF NOT EXISTS $DB_NAME;
 CREATE USER IF NOT EXISTS '$DB_USER'@'%' IDENTIFIED BY '$DB_PASSWORD';
