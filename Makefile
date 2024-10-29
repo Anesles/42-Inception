@@ -16,3 +16,5 @@ down:
 fclean: down
 	sudo rm -rf ~/data/*
 	docker system prune -af
+
+re: fclean up

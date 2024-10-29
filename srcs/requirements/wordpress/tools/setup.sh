@@ -28,6 +28,4 @@ then
         --role=$WP_ROLE
 fi;
 
-wp --allow-root --path="/var/www/inception/" theme install raft --activate
-
 exec $@
