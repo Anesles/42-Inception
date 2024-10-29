@@ -1,7 +1,7 @@
 NAME		= inception
 SRCS		= ./srcs
 COMPOSE		= $(SRCS)/docker-compose.yml
-HOST_URL	= login.42.fr
+HOST_URL	= brumarti.42.fr
 
 up:
 	mkdir -p ~/data/database

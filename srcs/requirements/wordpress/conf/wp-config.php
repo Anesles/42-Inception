@@ -21,13 +21,6 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-/* define( 'DB_NAME', getenv('inception') );
-define( 'DB_USER', getenv('brumarti') );
-define( 'DB_PASSWORD', getenv('123') );
-define( 'DB_HOST', getenv('321') );
-define( 'WP_HOME', getenv('https://login.42.fr') );
-define( 'WP_SITEURL', getenv('https://login.42.fr') ); */
-
 define( 'DB_NAME', getenv('DB_NAME') );
 define( 'DB_USER', getenv('DB_USER') );
 define( 'DB_PASSWORD', getenv('DB_PASSWORD') );
