@@ -1,7 +1,5 @@
 FROM	debian:bullseye
 
-EXPOSE	3306
-
 RUN		apt update && \
 		apt install -y --no-install-recommends --no-install-suggests \
 		mariadb-server dos2unix && \
