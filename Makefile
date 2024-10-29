@@ -12,3 +12,7 @@ up:
 down:
 	sudo hostsed rm 127.0.0.1 $(HOST_URL)
 	docker compose -p $(NAME) down
+
+fclean:
+	sudo rm -rf ~/data/*
+	docker system prune -af
